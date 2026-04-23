@@ -2,20 +2,13 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { HeartPulse, ShieldCheck, Microscope, ChevronLeft, ChevronRight } from 'lucide-react';
 
-import edu1 from '../assets/edu1.jpg';
-import edu2 from '../assets/edu2.jpg';
-import edu3 from '../assets/edu3.jpg';
-import edu4 from '../assets/edu4.jpg';
-import edu5 from '../assets/edu5.jpg';
-import edu6 from '../assets/edu6.jpg';
-
 const aboutImages = [
-  edu1,
-  edu2,
-  edu3,
-  edu4,
-  edu5,
-  edu6,
+  "/assets/edu1.jpg",
+  "/assets/edu2.jpg",
+  "/assets/edu3.jpg",
+  "/assets/edu4.jpg",
+  "/assets/edu5.jpg",
+  "/assets/edu6.jpg",
 ];
 
 export default function About() {

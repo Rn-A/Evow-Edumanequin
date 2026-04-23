@@ -1,12 +1,9 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Check, X, Star } from 'lucide-react';
 
-import paket1 from '../assets/paket1.jpg';
-import paket2 from '../assets/paket2.jpg';
-
 const packages = [
   {
-    image: paket2,
+    image: "/assets/paket2.jpg",
     title: "Paket Basic",
     description: "Paket ideal untuk pelatihan dasar CPR di sekolah, komunitas, dan instansi dengan anggaran terbatas.",
     price: "900.000",
@@ -27,7 +24,7 @@ const packages = [
     popular: false,
   },
   {
-    image: paket1,
+    image: "/assets/paket1.jpg",
     title: "Paket Plus",
     description: "Paket lengkap dengan fitur premium untuk pelatihan profesional di rumah sakit, kampus, dan institusi kesehatan.",
     price: "1.600.000",

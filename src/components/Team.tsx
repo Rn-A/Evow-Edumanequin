@@ -1,53 +1,29 @@
 import { motion } from 'motion/react';
 import { Target, Rocket, Sun, Instagram } from 'lucide-react';
 
-import hanif from '../assets/hanif.png';
-import isna from '../assets/isna.png';
-import rendra from '../assets/rendra.png';
-import alma from '../assets/alma.png';
-import tim from '../assets/tim.png';
-
-const coreValues = [
-  {
-    icon: Target,
-    title: "Visi",
-    desc: "Menjadi pelopor inovasi pelatihan keselamatan kesehatan yang terjangkau dan mudah diakses oleh seluruh lapisan masyarakat Indonesia."
-  },
-  {
-    icon: Rocket,
-    title: "Misi",
-    desc: "Mengembangkan produk mannequin pelatihan CPR berkualitas tinggi, menyelenggarakan program edukasi keselamatan, dan membangun ekosistem kesiapsiagaan darurat medis di Indonesia."
-  },
-  {
-    icon: Sun,
-    title: "Tujuan",
-    desc: "Meningkatkan angka keselamatan jiwa melalui pelatihan CPR yang efektif, memperluas jangkauan edukasi keselamatan ke seluruh pelosok Indonesia, dan menciptakan masyarakat yang siap menghadapi kondisi darurat."
-  }
-];
-
 const teamMembers = [
   {
     name: "M. Hanif Prasetya Adhi, S.Kep.,M.Kep",
     role: "Pembina",
-    image: hanif,
+    image: "/assets/hanif.png",
     instagram: ""
   },
   {
     name: "Isnaini Suci Ramadhani",
     role: "Ketua Tim",
-    image: isna,
+    image: "/assets/isna.png",
     instagram: "@isnasucira"
   },
   {
     name: "Rendra Aji Syaputra",
     role: "Web Developer",
-    image: rendra,
+    image: "/assets/rendra.png",
     instagram: "@rendraaji_s"
   },
   {
     name: "Fata Nur Almaidah",
     role: "Ahli Medis",
-    image: alma,
+    image: "/assets/alma.png",
     instagram: "@almaidahft"
   },
 ];
@@ -122,7 +98,7 @@ export default function Team() {
             className="lg:w-[55%] aspect-[5/4] rounded-[3rem] overflow-hidden shadow-2xl shadow-dark/10 mb-8 lg:mb-0 relative group"
           >
             <img
-              src={tim}
+              src="/assets/tim.png"
               alt="Tim Evow Edumanequin Belajar"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             />
