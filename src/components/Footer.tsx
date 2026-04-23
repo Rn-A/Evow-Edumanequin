@@ -10,7 +10,7 @@ export default function Footer() {
             <a href="#" className="flex items-center mb-6">
 
               <img
-                src="/src/assets/evow.png"
+                src="/assets/evow.png"
                 alt="Logo Evow Edumanequin"
                 className="h-12 w-auto object-contain hover:scale-105 transition-transform"
               />

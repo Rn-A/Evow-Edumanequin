@@ -23,25 +23,25 @@ const teamMembers = [
   {
     name: "M. Hanif Prasetya Adhi, S.Kep.,M.Kep",
     role: "Pembina",
-    image: "/src/assets/hanif.png",
+    image: "/assets/hanif.png",
     instagram: ""
   },
   {
     name: "Isnaini Suci Ramadhani",
     role: "Ketua Tim",
-    image: "/src/assets/isna.png",
+    image: "/assets/isna.png",
     instagram: "@isnasucira"
   },
   {
     name: "Rendra Aji Syaputra",
     role: "Web Developer",
-    image: "/src/assets/rendra.png",
+    image: "/assets/rendra.png",
     instagram: "@rendraaji_s"
   },
   {
     name: "Fata Nur Almaidah",
     role: "Ahli Medis",
-    image: "/src/assets/alma.png",
+    image: "/assets/alma.png",
     instagram: "@almaidahft"
   },
 ];
@@ -116,7 +116,7 @@ export default function Team() {
             className="lg:w-[55%] aspect-[5/4] rounded-[3rem] overflow-hidden shadow-2xl shadow-dark/10 mb-8 lg:mb-0 relative group"
           >
             <img
-              src="/src/assets/tim.png"
+              src="/assets/tim.png"
               alt="Tim Evow Edumanequin Belajar"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             />

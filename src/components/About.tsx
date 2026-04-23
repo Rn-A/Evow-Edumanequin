@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'motion/react';
 import { HeartPulse, ShieldCheck, Microscope, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const aboutImages = [
-  "/src/assets/edu1.jpg",
-  "/src/assets/edu2.jpg",
-  "/src/assets/edu3.jpg",
-  "/src/assets/edu4.jpg",
-  "/src/assets/edu5.jpg",
-  "/src/assets/edu6.jpg",
+  "/assets/edu1.jpg",
+  "/assets/edu2.jpg",
+  "/assets/edu3.jpg",
+  "/assets/edu4.jpg",
+  "/assets/edu5.jpg",
+  "/assets/edu6.jpg",
 ];
 
 export default function About() {

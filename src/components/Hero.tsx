@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, Activity, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const bannerImages = [
-  "/src/assets/banner1.jpg",
-  "/src/assets/banner2.jpg",
-  "/src/assets/banner3.jpg",
-  "/src/assets/banner4.jpg",
-  "/src/assets/banner5.jpg",
+  "/assets/banner1.jpg",
+  "/assets/banner2.jpg",
+  "/assets/banner3.jpg",
+  "/assets/banner4.jpg",
+  "/assets/banner5.jpg",
 ];
 
 export default function Hero() {
@@ -68,12 +68,12 @@ export default function Hero() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <div className="flex gap-4 items-center bg-white rounded-2xl py-2 px-4 shadow-sm border border-black/5 mb-8 w-fit mx-auto md:mx-0">
-              <img src="/src/assets/kemendikbud.jpg" alt="UMP" className="h-10 object-contain" />
+              <img src="/assets/kemendikbud.jpg" alt="UMP" className="h-10 object-contain" />
               <div className="w-[1px] h-8 bg-gray-200"></div>
-              <img src="/src/assets/ump.png" alt="Dikti" className="h-10 object-contain" />
+              <img src="/assets/ump.png" alt="Dikti" className="h-10 object-contain" />
               <div className="w-[1px] h-8 bg-gray-200"></div>
               <div className="font-bold text-blue-600 tracking-tight flex items-center justify-center">
-                <img src="/src/assets/kbmk.png" alt="Dikti" className="h-10 object-contain" />
+                <img src="/assets/kbmk.png" alt="Dikti" className="h-10 object-contain" />
               </div>
             </div>
 

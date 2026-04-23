@@ -37,7 +37,7 @@ export default function Navbar() {
           <a href="#" className="flex items-center group">
 
             <img
-              src="/src/assets/evow.png"
+              src="/assets/evow.png"
               alt="Logo EVOW Edumanequin"
               className="h-10 w-auto object-contain group-hover:scale-105 transition-transform"
             />
