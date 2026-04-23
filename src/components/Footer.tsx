@@ -1,4 +1,6 @@
 import { Stethoscope, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+
+export default function Footer() {
   return (
     <footer className="bg-dark text-white pt-20 pb-10">
       <div className="container mx-auto px-6 md:px-12">

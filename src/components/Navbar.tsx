@@ -1,6 +1,8 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { AlignJustify, Stethoscope, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
+
+export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
