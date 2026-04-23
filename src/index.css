@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon: #8B2C2C;
+  --color-maroon-dark: #6B2121;
+  --color-bg: #F5F1E8;
+  --color-cream: #F5F1E8;
+  --color-dark: #1A1A1A;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom Utilities if needed */
+.text-balance {
+  text-wrap: balance;
+}
+
+.card {
+  background: white;
+  border: 1px solid rgba(139, 44, 44, 0.1);
+  transition: all 0.3s ease;
+}
+
+.stat-number {
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}
+
+.pill {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
