@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { AlignJustify, Stethoscope, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import logo from '../assets/evow.png';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +38,7 @@ export default function Navbar() {
           <a href="#" className="flex items-center group">
 
             <img
-              src="/assets/evow.png"
+              src={logo}
               alt="Logo EVOW Edumanequin"
               className="h-10 w-auto object-contain group-hover:scale-105 transition-transform"
             />

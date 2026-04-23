@@ -2,12 +2,21 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, Activity, ChevronLeft, ChevronRight } from 'lucide-react';
 
+import banner1 from '../assets/banner1.jpg';
+import banner2 from '../assets/banner2.jpg';
+import banner3 from '../assets/banner3.jpg';
+import banner4 from '../assets/banner4.jpg';
+import banner5 from '../assets/banner5.jpg';
+import kemendikbud from '../assets/kemendikbud.jpg';
+import ump from '../assets/ump.png';
+import kbmk from '../assets/kbmk.png';
+
 const bannerImages = [
-  "/assets/banner1.jpg",
-  "/assets/banner2.jpg",
-  "/assets/banner3.jpg",
-  "/assets/banner4.jpg",
-  "/assets/banner5.jpg",
+  banner1,
+  banner2,
+  banner3,
+  banner4,
+  banner5,
 ];
 
 export default function Hero() {
@@ -68,12 +77,12 @@ export default function Hero() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <div className="flex gap-4 items-center bg-white rounded-2xl py-2 px-4 shadow-sm border border-black/5 mb-8 w-fit mx-auto md:mx-0">
-              <img src="/assets/kemendikbud.jpg" alt="UMP" className="h-10 object-contain" />
+              <img src={kemendikbud} alt="UMP" className="h-10 object-contain" />
               <div className="w-[1px] h-8 bg-gray-200"></div>
-              <img src="/assets/ump.png" alt="Dikti" className="h-10 object-contain" />
+              <img src={ump} alt="Dikti" className="h-10 object-contain" />
               <div className="w-[1px] h-8 bg-gray-200"></div>
               <div className="font-bold text-blue-600 tracking-tight flex items-center justify-center">
-                <img src="/assets/kbmk.png" alt="Dikti" className="h-10 object-contain" />
+                <img src={kbmk} alt="Dikti" className="h-10 object-contain" />
               </div>
             </div>
 

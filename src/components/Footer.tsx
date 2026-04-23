@@ -1,4 +1,5 @@
 import { Stethoscope, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import logo from '../assets/evow.png';
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
             <a href="#" className="flex items-center mb-6">
 
               <img
-                src="/assets/evow.png"
+                src={logo}
                 alt="Logo Evow Edumanequin"
                 className="h-12 w-auto object-contain hover:scale-105 transition-transform"
               />

@@ -1,6 +1,12 @@
 import { motion } from 'motion/react';
 import { Target, Rocket, Sun, Instagram } from 'lucide-react';
 
+import hanif from '../assets/hanif.png';
+import isna from '../assets/isna.png';
+import rendra from '../assets/rendra.png';
+import alma from '../assets/alma.png';
+import tim from '../assets/tim.png';
+
 const coreValues = [
   {
     icon: Target,
@@ -23,25 +29,25 @@ const teamMembers = [
   {
     name: "M. Hanif Prasetya Adhi, S.Kep.,M.Kep",
     role: "Pembina",
-    image: "/assets/hanif.png",
+    image: hanif,
     instagram: ""
   },
   {
     name: "Isnaini Suci Ramadhani",
     role: "Ketua Tim",
-    image: "/assets/isna.png",
+    image: isna,
     instagram: "@isnasucira"
   },
   {
     name: "Rendra Aji Syaputra",
     role: "Web Developer",
-    image: "/assets/rendra.png",
+    image: rendra,
     instagram: "@rendraaji_s"
   },
   {
     name: "Fata Nur Almaidah",
     role: "Ahli Medis",
-    image: "/assets/alma.png",
+    image: alma,
     instagram: "@almaidahft"
   },
 ];
@@ -116,7 +122,7 @@ export default function Team() {
             className="lg:w-[55%] aspect-[5/4] rounded-[3rem] overflow-hidden shadow-2xl shadow-dark/10 mb-8 lg:mb-0 relative group"
           >
             <img
-              src="/assets/tim.png"
+              src={tim}
               alt="Tim Evow Edumanequin Belajar"
               className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
             />
