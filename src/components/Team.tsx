@@ -1,6 +1,24 @@
 import { motion } from 'motion/react';
 import { Target, Rocket, Sun, Instagram } from 'lucide-react';
 
+const coreValues = [
+  {
+    icon: Target,
+    title: "Visi",
+    desc: "Menjadi pelopor inovasi pelatihan keselamatan kesehatan yang terjangkau dan mudah diakses oleh seluruh lapisan masyarakat Indonesia."
+  },
+  {
+    icon: Rocket,
+    title: "Misi",
+    desc: "Mengembangkan produk mannequin pelatihan CPR berkualitas tinggi, menyelenggarakan program edukasi keselamatan, dan membangun ekosistem kesiapsiagaan darurat medis di Indonesia."
+  },
+  {
+    icon: Sun,
+    title: "Tujuan",
+    desc: "Meningkatkan angka keselamatan jiwa melalui pelatihan CPR yang efektif, memperluas jangkauan edukasi keselamatan ke seluruh pelosok Indonesia, dan menciptakan masyarakat yang siap menghadapi kondisi darurat."
+  }
+];
+
 const teamMembers = [
   {
     name: "M. Hanif Prasetya Adhi, S.Kep.,M.Kep",
